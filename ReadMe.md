@@ -6,4 +6,4 @@ this command is used to see what is inside of the directory where you are, there
 
 ## ls demo
 
-![Image](img/ls.PNG "ls command image")
+![Image](img/ls.png "ls command image")

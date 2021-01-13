@@ -24,11 +24,27 @@ Commands for showing in screen the content of a file, using cat show all of the 
 
 ![Image](img/cat-head-tail.png "cat head tail command image")
 
+## cp
+
+This is the command we use for copying and pasting files, mkdir is the command we use forcreating folders, when you want to create all the folders required you pass the -p flag
+
+## cp mkdir demo
+
+![Image](img/cp-mkdir.png "cp mkdir command image")
+
 ## rm
 
 This is the command we use for the deleting files. When you want to eliminate a whole folder we use the recursive version rm -r, if dont want to receive questions asking if you are sure about the delete operation you should pass the -f flag, if you dont want the files in the rubbish bin you should pass the -skipTrash flag
 
 ## rm demo
 
-![Image](img/rm.png "cat head tail command image")
+![Image](img/rm.png "rm command image")
+
+## history, pipe symbol and grep
+
+Sometimes you use a command and later you forget the correct way to write that same command, the good new is that all of those command we execute are stored and we can see it executing the history command, and that generate another challenge, finding that one command inside all of all of that, the solution, we pass the result of one command to another another command with pipe symbol (the vertical line) and in that other command (in this case grep) we filter all the text generated taking only the lines that include a certain word. Grep can also be used to filter documents that contain certain lines as you can see in the image below
+
+## history-pipe-grep demo
+
+![Image](img/rm.png "history-pipe-grep command image")
 

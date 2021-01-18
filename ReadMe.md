@@ -46,5 +46,15 @@ Sometimes you use a command and later you forget the correct way to write that s
 
 ## history-pipe-grep demo
 
-![Image](img/rm.png "history-pipe-grep command image")
+![Image](img/history-pipe-grep.png "history-pipe-grep command image")
+
+
+# the vim editor
+
+## important consideration
+
+I usually prefer images and text to videos because the last one need more time, but I also understand that some concepts is better to see the whole process, so in this part of the tutorial I will give you the exact minute where I talk about that concept in the video 
+
+
+
 

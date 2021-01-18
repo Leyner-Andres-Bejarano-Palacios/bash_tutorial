@@ -49,6 +49,26 @@ Sometimes you use a command and later you forget the correct way to write that s
 ![Image](img/history-pipe-grep.png "history-pipe-grep command image")
 
 
+## bash redirections and sed
+
+Sometimes you want the result of an execution to be reflected in another file, if you want to append that result you would {COMMAND_EXECUTED} > {FILE_WHERE_WE_WANT_TO_STORE_RESULTS}, but if you want to append the results you put the "greater than" symbol twice like this  {COMMAND_EXECUTED} >>{FILE_WHERE_WE_WANT_TO_STORE_RESULTS}. It'ss important to remember that when you do a redirection to a non-existent file, that file will be created by the command.
+
+For the first example I used the sed command, this command is used to do substitution or find and replace activities.
+
+Something you may see along with the redirecction is the EOF special word, this word is used for multiline redirection.
+
+![Image](img/bash-redirections-sed.png "bash-redirections-sed command image")
+
+## chmod
+
+Command used to changue the permissions of files and folder. To see the permissions of files and folder use the command ls -ltr (or ll in some linux distributions). The first colunm is the corresponding to the permissions, if it starts with the letter d it means is a folder, the first 3 letter reference the permissions that the ownner of the file have over the object, if you see the 3 letters (rwx) then you can read, write and execute the file, the next three letter correspond to the group permissions (all the people in that group), and the last three for all the people different from those in the group.
+
+Permissions are assigned using the chmod command an three numbers corresponding to he sum of the permissions, permissions for readeing is a 4, permissions for writting is a 2 and permissions for reading is a 1.
+
+If you want to assing all permissions to the owner, then,  in the first number after the chmod you would write the number 7 (because thats the sum of the three permissions), if you want to give reading and executing permissions to the group what you would do is writting the number 5 in the second number after the chmod(because the sum of the read permission 4 and executing ones 1 is 5), for anyone else you write the sum of the permissions in the third number after the chmod (0 for example if you dont want to give them any permissions).
+
+![Image](img/chmod.png "chmod command image")
+
 # the vim editor
 
 ## important consideration

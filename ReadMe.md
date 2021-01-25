@@ -69,6 +69,14 @@ If you want to assing all permissions to the owner, then,  in the first number a
 
 ![Image](img/chmod.png "chmod command image")
 
+## which
+
+which is a command for various operating systems used to identify the location of executables.
+
+In this case, I was creating a virtual enviroment in python so the result of the command is part of another command.
+
+![Image](img/which.png "which command image")
+
 # the vim editor
 
 ## important consideration

@@ -77,6 +77,13 @@ In this case, I was creating a virtual enviroment in python so the result of the
 
 ![Image](img/which.png "which command image")
 
+
+## searhing files by the things they got inside
+
+When you need to know which is the file with certain phare inside, for example, I needed to know which file has the method WriteToAvro, so I executed the bash command grep -irl WriteToAvro as you can see in the picture below
+
+![Image](img/GrepIrl.png "Grep Irl image")
+
 # the vim editor
 
 ## important consideration

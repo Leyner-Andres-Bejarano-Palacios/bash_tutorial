@@ -84,6 +84,26 @@ When you need to know which is the file with certain phare inside, for example, 
 
 ![Image](img/GrepIrl.png "Grep Irl image")
 
+
+## ignoring the error output
+
+The > operator redirects the output usually to a file but it can be to a device. You can also use >> to append.
+
+If you don't specify a number then the standard output stream is assumed, but you can also redirect errors:
+
+> file redirects stdout to file
+1> file redirects stdout to file
+
+2> file redirects stderr to file
+
+&> file redirects stdout and stderr to file
+> file 2>&1 redirects stdout and stderr to file
+
+/dev/null is the null device it takes any input you want and throws it away. It can be used to suppress any output.
+
+Note that > file 2>&1 is an older syntax which still works, &> file is neater, but would not have worked on older systems.
+
+
 # the vim editor
 
 ## important consideration

@@ -77,6 +77,11 @@ In this case, I was creating a virtual enviroment in python so the result of the
 
 ![Image](img/which.png "which command image")
 
+## date
+
+In the next command (the one after this command) we will execute a command in a certain moment so is important to know the right timestamp in our server
+
+![Image](img/dateCommand.png "date command image")
 
 ## searhing files by the things they got inside
 

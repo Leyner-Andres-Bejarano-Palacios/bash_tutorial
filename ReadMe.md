@@ -89,6 +89,11 @@ When you need to know which is the file with certain phare inside, for example, 
 
 ![Image](img/GrepIrl.png "Grep Irl image")
 
+## searhing files by the things they got inside recursively
+
+Sometimes you need to do what we  did in the use case before but not only for the files in the current folder but also for the files inside the subfolder (and the subfolder of those subfolder). you can find the reference to that command here https://gist.github.com/alokm/1706626
+
+![Image](img/RecursiveGrep.png "RecursiveGrep image")
 
 ## ignoring the error output
 
